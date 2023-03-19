@@ -3,7 +3,7 @@
 /**
  * main - main function
  *
- * return: always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -15,5 +15,5 @@ int main(void)
 	for (i = 'A' ; i <= 'Z' ; i++)
 		putchar(i);
 	putchar('\n');
-	return (0);
+	return (0i);
 }
