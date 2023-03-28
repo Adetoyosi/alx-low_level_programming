@@ -4,22 +4,14 @@
  * char *_strcpy - a function that copies the string point array src
  * @dest: copy to
  * @src: copy from
- * Return: string
+ * Return: copied string
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
-	int x = 0;
+	int i;
 
-	while (*(src + 1) != '\0')
-	{
-		l++;
-	}
-	for ( ; x < 1 ; x++)
-	{
-		dest[x] = src[x];
-	}
-	dest[l] = '\0';
+	for (i = 0 ; src[i] != '\0' ; i++)
+		dest[i] = src[i];
 	return (dest);
 }
